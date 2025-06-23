@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Formulário de Registro de Usuário</title>
+</head>
+<body>
+<h2>Registro de Usuário</h2>
+<form action="cadUsuario" method="post"
+accept-charset="UTF-8">
+
+<label for="idNome">Nome:</label><br>
+<input type="text"  name="idNome" placeholder="João da Silva" required><br><br>
+
+<label for="idEmail">Email:</label><br>
+<input type="email" name="idEmail" placeholder="joao@email.com" required><br><br>
+
+<label for="idProtocoo">Protocolo:</label><br>
+<input type="number"  name="idProtocoo" placeholder="7654" required><br><br>
+
+<label for="idProjeto">Projeto:</label><br>
+<select  name="idProjeto" required>
+<option value="1" selected>Solar</option>
+<option value="0">Subestação</option>
+<option value="2">Padrão de Entrada</option>
+</select>
+
+<button type="submit">Salvar</button>
+</form>
+</body>
+</html>
